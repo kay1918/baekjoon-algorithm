@@ -13,6 +13,7 @@ for _ in range(K):
     for x in range(x1, x2):
         for y in range(M-y2,M-y1):
             graph[y][x] = 1
+print(graph)
 
 
 def bfs(y,x): 
